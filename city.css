@@ -1,0 +1,14 @@
+/* A single-city edition of the approved tour design. */
+.hero-kicker{margin-bottom:12px;letter-spacing:.015em}
+.city-event-meta{font-family:Montserrat,Arial,sans-serif;margin:0 0 25px;line-height:1.45;color:var(--milk)}
+.city-event-meta time{display:block;font-size:clamp(17px,1.6vw,25px);font-weight:600;letter-spacing:.01em}
+.city-event-meta span{display:block;font-size:clamp(14px,1.2vw,18px);font-weight:400;margin-top:5px}
+.city-community{max-width:1160px;margin:36px auto 0;text-align:center;padding:0 20px;box-sizing:border-box}
+.city-community p{font:400 16px/1.5 Swis721Win95BT,Arial,sans-serif;color:var(--milk);margin:0 0 16px}
+.city-vk{display:inline-flex;align-items:center;justify-content:center;gap:12px;padding:14px 24px;background:var(--milk);color:#171410!important;border-radius:16px;font:700 14px/1.2 Swis721Win95BT,Arial,sans-serif;transition:background .25s,color .25s,transform .25s;text-decoration:none!important}
+.city-vk:hover,.city-vk:focus-visible{background:var(--orange);transform:translateY(-2px)}
+#ticket-formats{display:block;scroll-margin-top:70px}
+@media(min-width:960px) and (max-height:780px){.city-event-meta{margin-bottom:18px}.hero-brand-group .hero-subtitle{margin-bottom:22px}.tour-countdown{margin-top:22px}}
+@media(max-width:959px){.hero-copy{bottom:28px}.hero-brand-group{margin-bottom:14px}.hero-kicker{font-size:clamp(27px,7vw,39px);margin-bottom:9px}.city-event-meta{margin:0 0 19px}.city-event-meta time{font-size:19px}.city-event-meta span{font-size:14px;margin-top:3px}.tour-countdown{margin-top:18px}.city-community{margin-top:26px}.city-community p{font-size:15px}#ticket-formats{scroll-margin-top:0}}
+@media(max-width:959px) and (max-height:740px){.hero-copy{bottom:20px}.hero-brand-group{margin-bottom:11px}.hero-kicker{font-size:27px}.city-event-meta{margin-bottom:14px}.city-event-meta time{font-size:17px}.city-event-meta span{font-size:13px}.tour-countdown{margin-top:13px}}
+@media(prefers-reduced-motion:reduce){.city-vk{transition:none}}

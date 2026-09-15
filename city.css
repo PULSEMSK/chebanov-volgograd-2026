@@ -15,3 +15,9 @@
 
 .contact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media(max-width:959px){.contact-grid{grid-template-columns:1fr}}
+
+/* Organizer details approved by the user, September 15, 2026. */
+.city-legal{font:400 14px/1.65 Swis721Win95BT,Arial,sans-serif;margin:0 auto 24px;max-width:560px}
+.city-legal p,.city-copyright{margin:0}
+.city-legal p:first-child{font-weight:500}
+@media(max-width:959px){.city-legal{max-width:300px;font-size:13px}}
